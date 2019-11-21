@@ -1,0 +1,2 @@
+http://www.modou28.com/Ajax/Game/Index
+td_cookie=169210459; sflag=1; PHPSESSID=nf6iv6httaiem4n27s06ip5m96; sjb=-1; visit_flag=1; __51cke__=; sytcTime=1574215659; password=9002c9ec797f9a0d318c5cd38739eb3b; usersid=54545; safstr=57ccc; cSound=1; zdsx=1; noticTime=2022-09-09%2011%3A00%3A00; __tins__20183281=%7B%22sid%22%3A%201574218407898%2C%20%22vd%22%3A%202%2C%20%22expires%22%3A%201574221176509%7D; __51laig__=6; neargame=ftww

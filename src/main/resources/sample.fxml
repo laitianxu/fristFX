@@ -1,0 +1,20 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane fx:controller="Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <HBox fx:id="box" prefWidth="400" prefHeight="40">
+        <Label text="url:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+        <TextField fx:id="url" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+        <Label text="cookie:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+        <TextField fx:id="cookie" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+        <Button text="提交" onAction="#submit" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+    </HBox>
+
+     <TableView prefHeight="600" prefWidth="800" fx:id="tview" visible="false">
+      <columns>
+         <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="267"  text="期数" fx:id="qishu"/>
+         <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="267" text="号码" fx:id="haoma"/>
+         <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="267" text="重复次数" fx:id="cishu"/>
+      </columns>
+      </TableView>
+</GridPane>
